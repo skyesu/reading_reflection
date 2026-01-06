@@ -18,8 +18,8 @@ h1 {
 p {
     background-color: white;
     color: brown;
-    margin: 10em;
-    padding: 5em;
+    margin: 0;
+    padding: 0.5em;
 }
 
 .row {
@@ -35,14 +35,19 @@ p {
 .side {
     float: left;
     margin: 0;
-    width: 20%;
+    width: 18%;
     padding: 0;
+    background: url("assets/jeff.jpeg");
 }
 
 .main {
     float: left;
     margin: 0;
     background: url("assets/user666web.png");
-    width: 60%;
-    padding: 0;
+    width: 55%;
+    padding: 2em;
+}
+
+.squish {
+    margin: 2em;
 }
