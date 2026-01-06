@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    -webkit-text-stroke: 3px #ff0000;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+p {
+    background-color: white;
+    color: brown;
+    margin: 10em;
+    padding: 5em;
+}
+
+.row {
+    display: block;
+}
+
+.row ::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.side {
+    float: left;
+    margin: 0;
+    width: 20%;
+    padding: 0;
+}
+
+.main {
+    float: left;
+    margin: 0;
+    background: url("assets/user666web.png");
+    width: 60%;
+    padding: 0;
+}
